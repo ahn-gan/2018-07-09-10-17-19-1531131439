@@ -18,6 +18,6 @@ public class Student extends Person{
 
     @Override
     public String introduce() {
-        return this.basicIntroduce() + " I am a Student. I am at Class" + String.valueOf(this.getKlass()) + ".";
+        return this.basicIntroduce() + " I am a Student. I am at Class " + String.valueOf(this.getKlass()) + ".";
     }
 }

@@ -20,6 +20,6 @@ public class Person {
     }
 
     public String introduce () {
-        return "My name is " + this.name + ". I am " + this.age + "years old.";
+        return "My name is " + this.getName() + ". I am " + this.getAge() + " years old.";
     }
 }
